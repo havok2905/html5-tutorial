@@ -14,7 +14,7 @@ window.onload = function()
     window.addEventListener("keydown", keypress_handler, false);
     window.addEventListener("keyup", keyup_handler, false);
 
-	var move = setInterval(function()
+	var moveInterval = setInterval(function()
 	{
 		draw();
 	}, 30);
